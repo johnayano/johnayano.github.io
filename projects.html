@@ -1,49 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projects | John Derek B. Ayano</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin:0; background:#f4f4f4; color:#333; }
-        header { background:#0d1117; color:white; padding:25px; text-align:center; }
-        header a { color:#58a6ff; text-decoration:none; font-size:14px; }
-        .section { max-width:900px; margin:auto; padding:30px 20px; }
-        h2 { color:#0d1117; border-left:5px solid #0d1117; padding-left:10px; }
-        .project-card { background:white; padding:20px; margin-top:15px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
-        .project-card h3 { margin:0; font-size:20px; }
-        .project-card p { margin-top:10px; font-size:15px; }
-        footer { background:#0d1117; color:white; text-align:center; padding:15px; margin-top:30px; }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>My Projects</h1>
-        <a href="index.html">← Back to Home</a>
-    </header>
-    <div class="section">
-        <h2>Featured Project</h2>
-        <div class="project-card">
-            <h3>Console-Based Library Equipment Borrowing and Tracker System</h3>
-            <p>
-                A console-based system designed to help track borrowed school or library equipment,
-                such as laptops, tablets, books, and other items. It allows the user to add items,
-                record borrowers, monitor due dates, and log returns all through a simple text-based interface.
-                Built using clean programming logic suitable for beginners.
-            </p>
-        </div>
-        <div class="project-card">
-        <h3>Aquarium Maintenance and <br>Task Scheduling System for Aquarist</h3>
-        <p>
-            A system for managing aquarium maintenance and feeding tasks, allowing admins to assign,
-            update, and track activities.  
-            Includes role-based access for admins and assistants, with task completion monitoring 
-            to ensure proper aquarium care and fish health.
-        </p>
-    </div>
-    </div>
-    <footer>
-        © 2025 John Derek B. Ayano — Projects Page
-    </footer>
-</body>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projects | John Derek B. Ayano</title><style>
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+    color:#333;
+}
+
+header {
+    background: linear-gradient(135deg, #0d1117, #1f2937);
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+
+header a {
+    color:#58a6ff;
+    text-decoration:none;
+    font-size:14px;
+    display:inline-block;
+    margin-top:10px;
+    padding:6px 12px;
+    border:1px solid #58a6ff;
+    border-radius:6px;
+    transition: all 0.3s ease;
+}
+
+header a:hover {
+    background:#58a6ff;
+    color:white;
+    transform: translateY(-2px);
+}
+
+.section {
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+    animation: fadeIn 0.8s ease-in;
+}
+
+h2 {
+    color:#0d1117;
+    border-left:5px solid #0d1117;
+    padding-left:10px;
+}
+
+.project-card {
+    background:white;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.project-card h3 {
+    margin:0;
+    font-size:20px;
+}
+
+.project-card p {
+    margin-top:10px;
+    font-size:15px;
+    line-height:1.6;
+}
+
+footer {
+    background:#0d1117;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity:0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+</style></head><body><header>
+    <h1>My Projects</h1>
+    <a href="index.html">← Back to Home</a>
+</header><div class="section">
+    <h2>Featured Projects</h2><div class="project-card">
+    <h3>Console-Based Library Equipment Borrowing and Tracker System</h3>
+    <p>
+        A console-based system designed to track borrowed equipment such as laptops,
+        tablets, and books. It allows users to record borrowers, monitor due dates,
+        and log returns using a simple interface.
+    </p>
+</div>
+
+<div class="project-card">
+    <h3>Aquarium Maintenance and Task Scheduling System for Aquarist</h3>
+    <p>
+        A system for managing aquarium maintenance and feeding tasks, allowing admins to assign,
+        update, and track activities. Includes role-based access for admins and assistants,
+        ensuring proper aquarium care and preventing missed tasks.
+    </p>
+</div>
+
+</div><footer>
+    © 2025 John Derek B. Ayano — Projects Page
+</footer></body>
 </html>
